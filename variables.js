@@ -35,3 +35,12 @@ for (const person of people) {
 
 // Trying to use the for-loop variable outside of the loop will work
 // console.log(personGreeting, "outside")
+
+// const variables cannot be redeclared (raises an error) but can be modified if they are objects
+// const personName = "Michael"
+// personName = "Peter"
+// console.log(personName)
+
+const fruits = ["Apple", "Orange", "Pear", "Strawberries", "Pineapple"]
+fruits.push("Mango")
+// console.log(fruits)
