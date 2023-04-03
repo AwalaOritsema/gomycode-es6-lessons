@@ -30,11 +30,11 @@ for (const person of people) {
 for (const person of people) {
   // This variable exists in its scope (the for-loop) as well as outside the for-loop
   var personGreeting = person + ", hi!"
-  // console.log(personGreeting)
+  console.log(personGreeting)
 }
 
 // Trying to use the for-loop variable outside of the loop will work
-// console.log(personGreeting, "outside")
+console.log(personGreeting, "outside")
 
 // const variables cannot be redeclared (raises an error) but can be modified if they are objects
 // const personName = "Michael"
@@ -44,3 +44,12 @@ for (const person of people) {
 const fruits = ["Apple", "Orange", "Pear", "Strawberries", "Pineapple"]
 fruits.push("Mango")
 // console.log(fruits)
+
+const myName = "John"
+// console.log(myName.toUpperCase())
+
+// function concat(stringToConcat) {
+//   const stringInObject = "John"
+//   const newString = stringInObject + stringToConcat
+//   return newString
+// }
