@@ -125,3 +125,26 @@
 // console.log(addNumbers(10, 540))
 
 // const addNumbers = (a, b) => a + b
+
+// parameters/arguments to function
+
+// Example: write a function that prints all the properties of an object. This function will have one parameter which should be the object.
+function printObject(objectToPrint) {
+  // loop over all the keys in the object
+  for (const key in objectToPrint) {
+    // log the key
+    // console.log(key)
+    // log the value for that key
+    // console.log(objectToPrint[key])
+  }
+}
+
+const movie = {
+  id: 12,
+  title: "The way of kings",
+  duration: 80,
+  releaseDate: "Jan 30, 2011",
+  rating: 0.89,
+}
+
+// printObject(movie)
