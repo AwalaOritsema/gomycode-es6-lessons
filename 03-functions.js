@@ -66,3 +66,46 @@
 //     return false
 //   }
 // }
+
+// function isEven(number) {
+// const remainder = number % 2
+
+// if (remainder === 0) {
+//   return true
+// }
+
+// if (remainder === 1) {
+//   return false
+// }
+// }
+
+//   function isEven(number) {
+//   return number % 2 === 0
+// }
+
+// console.log(isEven(100)) // true
+// console.log(isEven(101)) // false
+// console.log(isEven(7)) // false
+
+// A spin-off example of something we call callback function
+// function makeMeGreet(greetingText, functionToRun) {
+//   functionToRun(greetingText)
+// }
+
+// function runMyFunction(myFunction) {
+//   myFunction()
+// }
+
+// function greet() {
+//   console.log("hello world")
+// }
+
+// runMyFunction(greet)
+
+// runMyFunction(function () {
+//   console.log("hello world")
+// })
+
+// runMyFunction(() => {
+//   console.log("hello world")
+// })
