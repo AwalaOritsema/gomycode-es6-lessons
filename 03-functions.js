@@ -109,3 +109,19 @@
 // runMyFunction(() => {
 //   console.log("hello world")
 // })
+
+// More on arrow function
+
+// Example: a function that adds two numbers and returns the result (use arrow function)
+
+// function addNumbers(a, b) {
+//   return a + b
+// }
+
+// const addNumbers = (a, b) => {
+//   return a + b
+// }
+
+// console.log(addNumbers(10, 540))
+
+// const addNumbers = (a, b) => a + b
