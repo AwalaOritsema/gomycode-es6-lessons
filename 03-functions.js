@@ -55,3 +55,14 @@
 // console.log(isEven(38))
 
 // 2. Function declaration/definition with arrow function
+// const isEven = (number) => {
+//   const remainder = number % 2
+
+//   if (remainder === 0) {
+//     return true
+//   }
+
+//   if (remainder === 1) {
+//     return false
+//   }
+// }
